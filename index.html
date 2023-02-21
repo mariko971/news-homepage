@@ -4,32 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="index.css" />
 
     <title>Frontend Mentor | News homepage</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <header>
+      <h1>W.</h1>
       <nav>
-        <h1>W.</h1>
-        <ul>
+        <ul class="nav-links">
           <li>Home</li>
           <li>New</li>
           <li>Popular</li>
@@ -39,10 +34,10 @@
       </nav>
     </header>
     <main>
-      <section>
-        <div>
-          <div></div>
-          <div>
+      <section class="main">
+        <div class="main_article">
+          <div class="main_article-img"></div>
+          <div class="main_article-content">
             <h1>The Bright Future of Web 3.0?</h1>
             <div>
               <p>
@@ -54,55 +49,64 @@
             </div>
           </div>
         </div>
-        <div>
+        <aside>
           <h1>New</h1>
-          <ul>
-            <li>
-              <h4>Hydrogen VS Electric Cars</h4>
+          <ul class="aside-list">
+            <li class="aside-list-item">
+              <h3>Hydrogen VS Electric Cars</h3>
               <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
             </li>
-            <li>
-              <h4>The Downsides of AI Artistry</h4>
+            <li class="aside-list-item">
+              <h3>The Downsides of AI Artistry</h3>
               <p>
                 What are the possible adverse effects of on-demand AI image
                 generation?
               </p>
             </li>
-            <li>
-              <h4>Is VC Funding Drying Up?</h4>
+            <li class="aside-list-item">
+              <h3>Is VC Funding Drying Up?</h3>
               <p>
                 Private funding by VC firms is down 50% YOY. We take a look at
                 what that means.
               </p>
             </li>
           </ul>
-        </div>
+        </aside>
       </section>
-      <section>
-        <div>
-          <img src="./assets/images/image-retro-pcs.jpg" alt="retro" />
-          <div>
+      <section class="articles">
+        <div class="articles-item">
+          <img
+            src="./assets/images/image-retro-pcs.jpg"
+            alt="retro"
+            class="articles-item-img"
+          />
+          <div class="articles-item-content">
             <h3>01</h3>
-            <h6>Reviving Retro PCs</h6>
+            <h4>Reviving Retro PCs</h4>
             <p>What happens when old PCs are given modern upgrades?</p>
           </div>
         </div>
-        <div>
+        <div class="articles-item">
           <img
             src="./assets/images/image-top-laptops.jpg"
             alt="top of laptop"
+            class="articles-item-img"
           />
-          <div>
+          <div class="articles-item-content">
             <h3>02</h3>
-            <h6>Top 10 Laptops of 2022</h6>
+            <h4>Top 10 Laptops of 2022</h4>
             <p>Our best picks for various needs and budgets.</p>
           </div>
         </div>
-        <div>
-          <img src="./assets/images/image-gaming-growth.jpg" alt="game pad" />
-          <div>
+        <div class="articles-item">
+          <img
+            src="./assets/images/image-gaming-growth.jpg"
+            alt="game pad"
+            class="articles-item-img"
+          />
+          <div class="articles-item-content">
             <h3>03</h3>
-            <h6>The Growth of Gaming</h6>
+            <h4>The Growth of Gaming</h4>
             <p>How the pandemic has sparked fresh opportunities.</p>
           </div>
         </div>
@@ -113,7 +117,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Mark Njuru</a>.
     </footer>
   </body>
 </html>

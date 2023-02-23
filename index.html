@@ -14,25 +14,26 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
+      href="./assets/images/mylogo.svg"
     />
     <link rel="stylesheet" href="index.css" />
 
     <title>Frontend Mentor | News homepage</title>
   </head>
   <body>
-    <header>
-      <img src="./assets/images/logo.svg" alt="logo" />
+    <header id="header">
+      <img src="./assets/images/logo.svg" alt="logo" id="logo" />
       <img
         src="./assets/images/icon-menu.svg"
         alt="open menu button"
         id="menu-icon"
       />
-      <nav>
+      <nav id="nav">
         <div class="mobile-menu">
           <img
             src="./assets/images/icon-menu-close.svg"
             alt="close menu button"
+            id="close-menu-icon"
           />
         </div>
         <ul class="nav-links">
@@ -47,6 +48,17 @@
     <main>
       <section class="main">
         <div class="main_article">
+          <picture>
+            <source
+              srcset="./assets/images/image-web-3-mobile.jpg"
+              media="(max-width: 375px)"
+            />
+            <img
+              src="./assets/images/image-web-3-desktop.jpg"
+              alt="lego"
+              id="mobile-img"
+            />
+          </picture>
           <div class="main_article-img"></div>
           <div class="main_article-content">
             <h1>The Bright Future of Web 3.0?</h1>
@@ -130,5 +142,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Mark Njuru</a>.
     </footer>
+    <script src="./utill.js"></script>
   </body>
 </html>

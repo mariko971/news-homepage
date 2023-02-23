@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="0.358268in" height="0.358268in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 358.27 358.27"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#A73187;stroke-width:6.94;stroke-miterlimit:2.61313}
+    .str1 {stroke:#EBECEC;stroke-width:3;stroke-miterlimit:2.61313}
+    .fil0 {fill:#FEFEFE}
+    .fil2 {fill:#E5097F;fill-rule:nonzero}
+    .fil1 {fill:#A73187;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2799919074512">
+   <path class="fil0" d="M170.77 10.42c97.8,0 177.08,79.28 177.08,177.08 0,97.8 -79.28,177.08 -177.08,177.08 -97.8,0 -177.08,-79.28 -177.08,-177.08 0,-97.8 79.28,-177.08 177.08,-177.08z"/>
+   <path class="fil0 str0" d="M170.77 22.2c91.29,0 165.29,74.01 165.29,165.3 0,91.29 -74,165.3 -165.29,165.3 -91.29,0 -165.29,-74.01 -165.29,-165.3 0,-91.29 74,-165.3 165.29,-165.3z"/>
+   <g>
+    <path class="fil1 str1" d="M273.58 148.35c0.26,-0.59 0.48,-1.17 0.62,-1.72 0.15,-0.58 0.22,-1.17 0.22,-1.72 0,-1.86 -0.73,-3.35 -2.19,-4.49 -1.46,-1.13 -3.36,-1.72 -5.73,-1.72l-10.48 0 -36.79 81.04 11.35 0c3.91,0 6.94,-0.69 9.09,-2.04 2.12,-1.35 4.02,-3.72 5.66,-7.15l28.25 -62.2zm57.86 -16.5l-44.72 98.6c-3.58,7.99 -8.03,13.46 -13.36,16.5 -5.37,3.03 -13.76,4.57 -25.26,4.57l-93.7 0 65.7 -144.56 93.04 0c6.39,0 11.46,1.43 15.11,4.27 3.69,2.85 5.52,6.72 5.52,11.54 0,1.31 -0.22,2.74 -0.66,4.35 -0.4,1.6 -0.99,3.21 -1.68,4.74z"/>
+    <path class="fil2 str1" d="M118.55 138.72l-21.98 0 -51.21 112.8 -50.37 0 65.67 -144.56 164.26 0c6.39,0 11.46,1.43 15.11,4.27 3.69,2.85 5.52,6.79 5.52,11.76 0,1.24 -0.22,2.59 -0.66,4.13 -0.4,1.53 -1.02,3.17 -1.79,4.85l-54.35 119.55 -50.3 0 46.8 -103.05c0.19,-0.44 0.37,-0.91 0.48,-1.43 0.11,-0.47 0.18,-0.98 0.26,-1.5 0,-1.9 -0.73,-3.54 -2.19,-4.86 -1.46,-1.31 -3.28,-1.97 -5.51,-1.97l-10.44 0 -51.32 112.8 -49.24 0 51.29 -112.8z"/>
+   </g>
+  </g>
+ </g>
+</svg>

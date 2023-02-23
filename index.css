@@ -6,6 +6,7 @@
   --yellow-color: #e9aa52;
   --almost-white-color: #fffdfa;
   --silver-color: #c5c6ce;
+  --display: "none";
 }
 
 * {
@@ -61,6 +62,10 @@ nav {
 .main {
   display: flex;
   margin-bottom: 71px;
+}
+
+#mobile-img {
+  display: none;
 }
 
 .main_article {
@@ -319,17 +324,28 @@ aside h1 {
     background-color: var(--almost-white-color);
     position: absolute;
     top: -20px;
-    right: -20px;
+    right: -100vw;
     flex-direction: column;
     height: 100vh;
     width: 45%;
+    padding: 27px 24px;
+    transition: all ease-in 0.4s;
   }
 
   .mobile-menu {
     display: flex;
+    margin-bottom: 86px;
+    width: 100%;
+    text-align: right;
   }
 
-  header::before {
+  .mobile-menu img {
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+  }
+
+  header[toggle]::before {
     content: "";
     position: absolute;
     top: -20px;
@@ -338,6 +354,7 @@ aside h1 {
     height: 100vh;
     background-color: var(--dark-space-blue-color);
     opacity: 0.5;
+    transition: ease-in 0.4s;
   }
 
   /* header::before,
@@ -347,6 +364,13 @@ aside h1 {
 
   .nav-links {
     flex-direction: column;
+    row-gap: 24px;
+    margin-right: 140px;
+  }
+  .nav-links li {
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--dark-space-blue-color);
   }
   .main {
     flex-direction: column;
@@ -358,5 +382,72 @@ aside h1 {
     width: 100%;
     margin-top: 30px;
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    padding-inline: 16px;
+  }
+  #logo {
+    height: 28px;
+  }
+  header {
+    margin: 20px 0 32px 0;
+  }
+  .main_article-img {
+    display: none;
+  }
+  #mobile-img {
+    display: initial;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .main_article-content h1 {
+    line-height: 40px;
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+  .main_article-content p {
+    line-height: 26px;
+  }
+  aside {
+    margin-top: 64px;
+  }
+  aside h1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .aside-list-item h3 {
+    font-size: 20px;
+  }
+  .aside-list-item p {
+    font-size: 15px;
+  }
+  .aside-list li {
+    padding: 30px 0;
+  }
+  .articles-item-content h3 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .articles-item-content p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .articles-item {
+    min-width: 100%;
+  }
+  .main {
+    margin-bottom: 64px;
+  }
+  .attribution {
+    margin: 55px 0 30px 0;
+  }
+  nav {
+    width: 256px;
+  }
+  .nav-links {
+    margin-right: 120px;
   }
 }

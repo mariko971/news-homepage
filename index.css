@@ -28,7 +28,7 @@ ul {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0 55px 0;
+  margin: 89px 0 55px 0;
 }
 
 nav {
@@ -176,7 +176,6 @@ aside h1 {
 
 .articles {
   display: flex;
-  /* height: 129px; */
   justify-content: space-between;
 }
 
@@ -314,6 +313,7 @@ aside h1 {
 @media screen and (max-width: 768px) {
   header {
     position: relative;
+    margin-top: 20px;
   }
 
   #menu-icon {
@@ -357,11 +357,6 @@ aside h1 {
     transition: ease-in 0.4s;
   }
 
-  /* header::before,
-  nav {
-    display: none;
-  } */
-
   .nav-links {
     flex-direction: column;
     row-gap: 24px;
@@ -385,15 +380,19 @@ aside h1 {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   body {
     padding-inline: 16px;
+  }
+  #menu-icon {
+    height: 17px;
   }
   #logo {
     height: 28px;
   }
   header {
     margin: 20px 0 32px 0;
+    align-items: center;
   }
   .main_article-img {
     display: none;
